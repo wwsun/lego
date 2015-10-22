@@ -1,0 +1,21 @@
+{
+  "name": "lego-vis",
+  "version": "1.0.0",
+  "description": "A koa-based mvc framework for big data visualization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwsun/lego.git"
+  },
+  "author": "Weiwei SUN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwsun/lego/issues"
+  },
+  "homepage": "https://github.com/wwsun/lego#readme",
+  "devDependencies": {
+  }
+}
