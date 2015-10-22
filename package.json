@@ -17,5 +17,9 @@
   },
   "homepage": "https://github.com/wwsun/lego#readme",
   "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "koa": "^1.1.0"
   }
 }
