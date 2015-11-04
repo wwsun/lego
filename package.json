@@ -2,9 +2,9 @@
   "name": "lego-vis",
   "version": "1.0.0",
   "description": "A koa-based mvc framework for big data visualization",
-  "main": "index.js",
+  "main": "lib/lego.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node lib/lego.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
     "babel": "^5.8.23"
   },
   "dependencies": {
-    "koa": "^1.1.0"
+    "koa": "^1.1.0",
+    "koa-router": "^5.2.3",
+    "koa-static": "^1.5.2",
+    "koa-views": "^3.1.0"
   }
 }
