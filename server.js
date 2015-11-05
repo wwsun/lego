@@ -1,6 +1,7 @@
 const Koa = require('koa');
 const path = require('path');
 const fs = require('fs');
+const serve = require('koa-static');
 const route = require('koa-route');
 const logger = require('koa-logger');
 const config = require('./config/config');
@@ -11,6 +12,9 @@ const config = require('./config/config');
 const app = module.exports = new Koa();
 app.use(logger());
 
+// define public path, for css/images
+app.use(serve(__dirname + '/public'));
+console.log(__dirname);
 
 /**
  * Bootstrap routes/api
