@@ -1,6 +1,7 @@
 const Koa = require('koa');
 const path = require('path');
 const fs = require('fs');
+const route = require('koa-route');
 const logger = require('koa-logger');
 const config = require('./config/config');
 
@@ -9,6 +10,19 @@ const config = require('./config/config');
  */
 const app = module.exports = new Koa();
 app.use(logger());
+
+
+/**
+ * Bootstrap routes/api
+ *  Scan all directory /routes and add to app
+ */
+const routesPath = path.join(__dirname, 'routes');
+fs.readdirSync(routesPath).forEach(function (file) {
+  if (file[0] === '.') {
+    return;
+  }
+  require(routesPath + '/' + file)(app, route);
+});
 
 
 /**
