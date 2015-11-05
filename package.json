@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/wwsun/lego#readme",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^2.0.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.2"
   },
   "dependencies": {
     "co-views": "^2.1.0",
