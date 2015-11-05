@@ -12,7 +12,7 @@ const config = require('./config/config');
 const app = module.exports = new Koa();
 app.use(logger());
 
-// define public path, for css/images
+// Static file serving: css/images
 app.use(serve(__dirname + '/public'));
 console.log(__dirname);
 
