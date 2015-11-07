@@ -1,6 +1,6 @@
 {
   "name": "lego-vis",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A koa-based web application for big data visualization",
   "main": "server.js",
   "scripts": {
