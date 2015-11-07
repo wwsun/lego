@@ -1,11 +1,9 @@
-
-const localDB = process.env.MONGODB_URI || 'mongodb://localhost:27017/jiaodian';
-
+// todo: refactor this file
+// todo: extract all configurations to here
 const config = {
   local: {
     mode: 'local',
-    port: 3000,
-    mongoUrl: localDB
+    port: 3000
   }
 };
 
