@@ -21,3 +21,7 @@ Build client-side codes with Webpack
     npm run webpack-hot
     
 Open your browser to visit `http://localhost:9001/`
+
+## References
+
+1. [React-Bootstrap](https://react-bootstrap.github.io/)
