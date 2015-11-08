@@ -1,0 +1,22 @@
+{
+  "name": "lego-vis",
+  "description": "A koa-based web application for big data visualization",
+  "main": "server.js",
+  "authors": [
+    "Weiwei SUN"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wwsun/lego",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
