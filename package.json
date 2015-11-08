@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "gulp-build": "gulp",
-    "webpack-build": "webpack --config config/webpack.config.js",
-    "dev": "webpack-dev-server --config config/webpack.config.js --devtool eval --progress --colors --hot --content-base public/build"
+    "gulp": "gulp",
+    "webpack": "webpack --config config/webpack.config.js",
+    "webpack-hot": "webpack-dev-server --config config/webpack.config.js --devtool eval --progress --colors --hot --content-base public/build"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/wwsun/lego#readme",
   "devDependencies": {
-    "babel": "^5.8.23",
     "babel-core": "^6.1.2",
     "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
     "gulp": "^3.9.0",
     "gulp-nodemon": "^2.0.4",
     "gulp-watch": "^4.3.5",

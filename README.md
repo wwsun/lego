@@ -12,8 +12,12 @@ Install dependencies
 
     npm install
 
-Build with Grunt
+Build server-side codes with Gulp
 
-    grunt
+    gulp
     
-Open your browser to visit `http://localhost:PORT/`
+Build client-side codes with Webpack
+
+    npm run webpack-hot
+    
+Open your browser to visit `http://localhost:9001/`
