@@ -6,7 +6,7 @@ class AppPanel extends React.Component {
   render() {
 
     const title = (
-      <h3>panel title</h3>
+      <h3>{this.props.title}</h3>
     );
 
     return (
