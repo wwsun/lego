@@ -2,6 +2,7 @@ import React from 'react';
 
 import AppNavbar from './common/AppNavbar.jsx';
 import AppPanel from './common/AppPanel.jsx';
+import LineChart from './chart/LineChart.jsx';
 
 class AppRoot extends React.Component {
 
@@ -15,15 +16,13 @@ class AppRoot extends React.Component {
 
           <div className="row">
             <div className="col-md-6">
-              <AppPanel></AppPanel>
+              <LineChart title="session trends"></LineChart>
             </div>
 
             <div className="col-md-6">
-              <AppPanel></AppPanel>
+              <AppPanel title="key index"></AppPanel>
             </div>
           </div>
-
-
 
         </div>
       </div>
